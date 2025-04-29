@@ -1,6 +1,6 @@
 # guessing_game
 
-Simple guessing game using python. Practice for my Software Design class with Dr. Venkat Subramaniam.
+Simple guessing game using python. Practice for my Software Design class with Dr. Venkat Subramaniam. This is a past exam problem in his class.
 
 ### Problem statement:
 
