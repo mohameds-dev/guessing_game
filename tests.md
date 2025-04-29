@@ -11,3 +11,8 @@
 - [x] calculate score takes 'o' and returns 1
 - [x] calculate score takes 'u' and returns 1
 
+### Character guess validator
+
+- [x] validate guess takes "monkey", index 0, and character 'm', and returns True
+- [x] validate guess takes "monkey", index 0, and character 'k', and returns False
+- [ ] validate guess takes "monkey", index 5, and character 'y', and returns True
