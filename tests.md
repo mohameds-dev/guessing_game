@@ -22,3 +22,9 @@
 - [x] word shuffler takes a string "monkey" and returns it shuffled - use reverse as mock side effect
 - [x] word shuffler takes a string "donkey" and returns it shuffled - use sort as mock side effect
 
+### Random word selection
+
+- [x] Random word selector takes a list with word "monkey" and returns it
+- [x] Random word selector takes a list of 2 strings and returns a random one - return first one as mock side effect
+- [ ] Random word selector takes a list of 3 strings and returns a random one - return second one as mock side effect
+- [ ] Random word selector takes an empty list and raises an exception saying "Invalid input: no words to choose from
