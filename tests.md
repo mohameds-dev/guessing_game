@@ -19,6 +19,6 @@
 
 ### Word shuffler
 
-- [x] word shuffler takes a string "monkey" and returns it shuffled
-- [x] word shuffler takes a string "donkey" and returns it shuffled
+- [x] word shuffler takes a string "monkey" and returns it shuffled - use reverse as mock side effect
+- [x] word shuffler takes a string "donkey" and returns it shuffled - use sort as mock side effect
 
