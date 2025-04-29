@@ -13,9 +13,9 @@
 
 ### Character guess validator
 
-- [x] validate guess takes "monkey", index 0, and character 'm', and returns True
-- [x] validate guess takes "monkey", index 0, and character 'k', and returns False
-- [x] validate guess takes "monkey", index 5, and character 'y', and returns True
+- [ ] validate guess takes 'm' and 'm' and returns True
+- [ ] validate guess takes 'M' and 'm' and returns True
+- [ ] validate guess takes 'x' and 'y', and returns False
 
 ### Word shuffler
 
