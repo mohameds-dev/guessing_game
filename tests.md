@@ -10,3 +10,4 @@
 - [x] calculate score takes 'i' and returns 1
 - [x] calculate score takes 'o' and returns 1
 - [x] calculate score takes 'u' and returns 1
+

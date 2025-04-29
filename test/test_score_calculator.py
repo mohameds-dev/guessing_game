@@ -3,6 +3,8 @@ from src.score_calculator import calculate
 from parameterized import parameterized
 
 class TestScoreCalculator(unittest.TestCase):  
+    def test_canary(self):
+        self.assertTrue(True)
 
     @parameterized.expand(['x', 'y', 'z'])
     def test_score_calculator_takes_consonant_and_returns_2(self, consonant):
