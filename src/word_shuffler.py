@@ -1,7 +1,5 @@
-import random
+from random import shuffle
 
 def shuffle_word(word):
-    chars = list(word)
-    random.shuffle(chars)
-
-    return ''.join(chars)
+    return ''.join(shuffle(list(word)))
+    
