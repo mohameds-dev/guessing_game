@@ -15,4 +15,10 @@
 
 - [x] validate guess takes "monkey", index 0, and character 'm', and returns True
 - [x] validate guess takes "monkey", index 0, and character 'k', and returns False
-- [ ] validate guess takes "monkey", index 5, and character 'y', and returns True
+- [x] validate guess takes "monkey", index 5, and character 'y', and returns True
+
+### Word shuffler
+
+- [x] word shuffler takes a string "monkey" and returns it shuffled
+- [x] word shuffler takes a string "donkey" and returns it shuffled
+
