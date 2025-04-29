@@ -1,2 +1,2 @@
 def calculate(character):
-    return 2 if character == 'x' else 1
+    return 1 if character in ['a', 'e', 'i', 'o', 'u'] else 2
