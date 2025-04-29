@@ -15,5 +15,5 @@ jobs:
       - name: Make build.sh executable
         run: chmod +x build.sh
 
-      - name: Run Build Script
+      - name: Run Build Script (Paver with tests)
         run: ./build.sh
