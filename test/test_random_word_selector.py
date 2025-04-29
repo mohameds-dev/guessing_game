@@ -12,3 +12,6 @@ class TestRandomWordSelector(unittest.TestCase):
         
         self.assertEqual(select_word(words), "monkey")
         mock_choice.assert_called_once_with(words)
+
+    def test_random_word_selector_takes_an_empty_list_and_raises_exception(self):
+        self.assertRaisesRegex(IndexError, "Invalid input: expected a non-empty list of words to select from.", select_word, [])
