@@ -3,7 +3,7 @@ from src.score_calculator import calculate_score
 
 def evaluate_score(correct_word, guessed_word):
     score = 0
-    for i, (correct_char, guessed_char) in enumerate(zip(correct_word, guessed_word)):
+    for correct_char, guessed_char in zip(correct_word, guessed_word):
         if not validate_guess(correct_char, guessed_char): break
         score += calculate_score(correct_char)
 
