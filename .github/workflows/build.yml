@@ -12,5 +12,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Make build.sh executable
+        run: chmod +x build.sh
+
       - name: Run Build Script
         run: ./build.sh
