@@ -20,11 +20,4 @@ The program will pick a random word from the file, scramble it (for example, mon
 
 Then it will ask the user to guess. The user gets partial points for their guess. They get one point for each vowel and two points for each consonant. For example, if the user enters monk (when the selected word is monkey), then they get 7 points. If a letter they enter is not in the word, they don't get any points for that letter. For example, if they enter mop, they get 3 points and not 5. If the spelling of the word is wrong, they get zero points. For example, if they enter kom, even though each letter there is in the selected word, they get 0 points.
 
-~~The service at the location http://agile.cs.uh.edu:8084 may be used for checking spelling. For example,~~
-
-~~http://agile.cs.uh.edu/spell?check=right will return true~~
-~~http://agile.cs.uh.edu/spell?check=rihgt will return false~~
-
-We will use this service https://languagetool.org/http-api/ for spell checking.
-
 The program will present the user with a scrambled word, cycle through asking the user for a guess, print their score, and repeat. It will stop when the user has made the perfect guess, that is, entered the original word (monkey, for example).

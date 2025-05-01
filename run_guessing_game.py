@@ -1,6 +1,6 @@
 from src.input_reader import read_input_words
 from src.random_word_selector import select_word
-from word_scrambler import scramble_word
+from src.word_scrambler import scramble_word
 from src.guess_score_evaluator import evaluate_score
 
 def run_game():
