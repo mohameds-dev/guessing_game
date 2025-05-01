@@ -27,6 +27,10 @@
 - [x] Random word selector takes a list with word "monkey" and returns it
 - [x] Random word selector takes a list of 2 strings and returns a random one
 - [x] Random word selector takes an empty list and raises an exception saying "Invalid input: no words to select from."
+- [ ] random index selector takes 10 and returns a random index between 0 and 9 inclusive
+- [ ] next index takes 1 and 10 and returns 5
+- [ ] next index takes 4 and 10 and returns 5
+- [ ] next index takes 9 and 10 and returns 0
 
 ### Guess evaluator
 
