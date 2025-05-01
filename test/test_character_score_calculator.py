@@ -1,5 +1,5 @@
 import unittest
-from src.score_calculator import calculate_score
+from src.character_score_calculator import calculate_score
 from parameterized import parameterized
 
 class TestScoreCalculator(unittest.TestCase):  

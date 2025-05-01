@@ -1,5 +1,5 @@
 from src.character_guess_validator import validate_guess
-from src.score_calculator import calculate_score
+from src.character_score_calculator import calculate_score
 
 def evaluate_score(correct_word, guessed_word):
     score = 0

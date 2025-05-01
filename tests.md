@@ -33,4 +33,9 @@
 - [x] Guess evaluator takes the word "monkey" and the guessed word "monkey" and returns score of 10
 - [x] Guess evaluator takes the word "monkey" and the guessed word "monk" and returns score of 7
 - [x] Guess evaluator takes the word "monkey" and the guessed word "kom" and returns score of 0
-- [ ] Guess evaluator takes the word "monkey" and the guessed word "mono" and returns score of 5
+- [x] Guess evaluator takes the word "monkey" and the guessed word "mono" and returns score of 5
+
+### Reading input
+
+- [x] Read input reads lines from words.txt file and returns a list of words
+- [x] Read input reads empty file and returns empty list

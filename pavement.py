@@ -23,6 +23,7 @@ def clean():
     for pycfile in glob.glob("*/*/*.pyc"): os.remove(pycfile)
     for pycache in glob.glob("*/__pycache__"): os.removedirs(pycache)
     for pycache in glob.glob("*/__pycache__"): shutil.rmtree(pycache)
+    for pycache in glob.glob("*/*/__pycache__"): shutil.rmtree(pycache)
     try:
         shutil.rmtree(os.getcwd() + "/cover")
     except:
