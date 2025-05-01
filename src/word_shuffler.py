@@ -1,4 +1,4 @@
-from random import shuffle
+from random import sample
 
 def shuffle_word(word):
-    return ''.join(shuffle(list(word)))
+    return ''.join(sample(list(word), len(word)))
