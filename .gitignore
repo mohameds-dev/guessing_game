@@ -9,6 +9,5 @@ htmlcov/
 .venv
 
 # Local scripts
-clean.sh
 git_push_all.sh
 
